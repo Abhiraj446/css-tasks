@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Trip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="trip.css">
+</head>
+<body>
+
+    <div class="container-fluid d-flex flex-column  " style="width:100%;">
+
+        <div class="fixed">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-brands fa-square-whatsapp fa-3x"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Whatsapp</a>
+                </div>
+              </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-phone fa-3x"></i></button>
+                <div class="dropdown-content">
+                  <a href="#">Phone</a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="row head" style="background-color: orangered;">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 white">
+                <i class="fa-solid fa-envelope"></i>
+                info@gotripindia.in
+            </div>
+            <div class="col-md-2 white">
+                <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                +91 9558328777
+            </div>
+            <div class="col-md-5"></div>
+            <div class="col-md-2 d-flex justify-content-evenly">
+                <i class="fa-brands fa-facebook-f white icons"></i>
+                <i class="fa-brands fa-twitter white icons"></i>
+                <i class="fa-brands fa-youtube white icons"></i>
+                <i class="fa-brands fa-instagram white icons"></i>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row logos align-items-center">
+            <div class="col-md-2 logo"></div>     
+            <div class="col-md-3"></div>     
+            <div class="col-md-7">
+                <div class="row text-primary">
+                    <div class="col-md-2 light"><b>HOME</b></div>
+                    <div class="col-md-3 light"><b>DOMESTIC TOURS</b></div>
+                    <div class="col-md-3 light"><b>INTERNATIONAL TOURS</b></div>
+                    <div class="col-md-2 light"><b>ABOUT US</b></div>
+                    <div class="col-md-2 light"><b>CONTACT US</b></div>
+                </div>
+            </div>     
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12 pic text-white">
+                <div class="row pictext">
+                    <div class="col"></div>
+                    <div class="col-md-7 space" style="margin-top: 10rem;letter-spacing: 5px;"><h1>A Once In A Life Time Experience</h1></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-5 mt-3"><h4>Click Your Desired Domestic & International Destination</h4></div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-11 dark mb-3">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-md-4 d-flex flex-column align-items-center mt-3">
+                                India's Top Travel Destinatons
+
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Kerela
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Kashmir
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Rajasthan
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Aandman
+                                    </div>
+                                </div>
+
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Goa
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Himachal
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Sikkim
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Uttarakhand
+                                    </div>
+                                </div>
+
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Ladakh
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Gujarat
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Tamilnadu
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Karnataka
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col-md-4 d-flex flex-column align-items-center mt-3">
+                                Top International Destinations
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Dubai
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Singapore
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Srilanka
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Maldives
+                                    </div>
+                                </div>
+
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Thailand
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Malaysia
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Bali
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Mauritius
+                                    </div>
+                                </div>
+
+                                <div class="row desti mt-3">
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Turkey
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Greece
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Tashkent
+                                    </div>
+                                    <div class="col"></div>
+                                    <div class="col-md-1 d-flex justify-content-center">
+                                        <i class="fa-solid fa-check"></i>
+                                        Hong Kong
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col"></div>
+            <div class="col-md-5 heading"><u><h2>Best Selling Domestic Tour Packages</h2></u></div>
+            <div class="col"></div>
+        </div>
+
+        <div class="row pack mt-4">
+            <div class="col-md-3">
+               <div class="row">
+                   <div class="col-md-12 img" id="img1"></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-12"><h3>Kerala Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-4"><h5><b>INR 7,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 img" id="img2"></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-12"><h3>Kashmir Tour Packages</h3></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-10"><p>Package Price Starting From</p></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-5"><h5><b>INR 9,999 Per Person</b></h5></div>
+                             <div class="col-md-1"></div>
+                             <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img3"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Ladakh Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 14,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img4"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Andaman Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 9,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+        </div>
+
+
+        <div class="row pack mt-4">
+            <div class="col-md-3">
+               <div class="row">
+                   <div class="col-md-12 img" id="img5"></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-12"><h3>Gujarat Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-4"><h5><b>INR 9,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 img" id="img6"></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-12"><h3>Rajasthan Tour Packages</h3></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-10"><p>Package Price Starting From</p></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-5"><h5><b>INR 9,999 Per Person</b></h5></div>
+                             <div class="col-md-1"></div>
+                             <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img7"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Goa Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 4,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img8"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Himachal Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 6,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row mt-5">
+            <div class="col"></div>
+            <div class="col-md-5 heading"><u><h2>Best Selling International Tour Packages</h2></u></div>
+            <div class="col"></div>
+        </div>
+
+        <div class="row pack mt-4">
+            <div class="col-md-3">
+               <div class="row">
+                   <div class="col-md-12 img" id="img9"></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-12"><h3>Dubai Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 29,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 img" id="img10"></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-12"><h3>Singapore Tour Packages</h3></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-10"><p>Package Price Starting From</p></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-5"><h5><b>INR 16,999 Per Person</b></h5></div>
+                             <div class="col-md-1"></div>
+                             <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img11"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Thailand Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 9,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img12"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Sri Lanka Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 39,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+        </div>
+
+
+        <div class="row pack mt-4">
+            <div class="col-md-3">
+               <div class="row">
+                   <div class="col-md-12 img" id="img13"></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-12"><h3>Malaysia Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 14,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 img" id="img14"></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-12"><h3>Bali Tour Packages</h3></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-10"><p>Package Price Starting From</p></div>
+                        </div>
+         
+                        <div class="row">
+                             <div class="col-md-5"><h5><b>INR 16,999 Per Person</b></h5></div>
+                             <div class="col-md-1"></div>
+                             <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img15"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Mauritius Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 29,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12 img" id="img16"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12"><h3>Maldives Tour Packages</h3></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-10"><p>Package Price Starting From</p></div>
+               </div>
+
+               <div class="row">
+                    <div class="col-md-5"><h5><b>INR 29,999 Per Person</b></h5></div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 view d-flex align-items-center bg-primary justify-content-center text-white w-6"><h6><b> View All Packages </b></h6></div>
+               </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row mt-5">
+            <div class="col"></div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-4 offer" id="offer1"></div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12"><p><b>Explore the world</b></p></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12"><p>Start to discrover. We will help you to visit any place you can imagine</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-4 offer" id="offer2"></div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12"><p><b>Safety and Security</b></p></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12"><p>We guarantee your money is totally safe when you book tour with us</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-4 offer" id="offer3"></div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12"><p><b>Best Prices</b></p></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12"><p>We are committed to offer best and competitive price with quality services.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

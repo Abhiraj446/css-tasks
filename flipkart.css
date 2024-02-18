@@ -1,0 +1,455 @@
+.container{
+    width:100%;
+    height:auto;
+    /* border:2px solid black; */
+    background-color: lightgrey;
+}
+
+.box{
+    width:100%;
+    height:100px;
+    /* border:1px solid blue; */
+    /* position:absolute;   */
+}
+.flipkart{
+    width:25%;
+    height:85px;
+    /* border: 1px solid green; */
+    position: relative; 
+    left:0px;
+    top:10px;
+    background-image: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inputicons i{
+    position: absolute;
+    left:425px;
+    top:55px; 
+}
+.inputicons{
+    margin-left: 400px;
+    margin-top: -60px;
+}
+.input{
+    width:35%;
+    height:50px;
+    padding-left: 50px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border:none;
+}
+
+
+.login{
+    width:130px;
+    height:40px;
+    /* border:1px border purple; */
+    background-color: antiquewhite;
+    padding-top:15px;
+    float:right;
+    margin-right: 50px;
+    margin-top: -52px;
+    border-radius: 10px;
+    text-align: center;
+}
+.login a{
+    text-decoration: none;
+    padding-top:50px ;
+    padding-left: 20px;
+    font-size: 20px;
+    color:black;
+}
+
+#cart{
+    margin-right:50px;
+}
+#seller{
+    width:200px;
+    margin-right: 50px;
+}
+
+.box1{
+    width:100%;
+    height:auto;
+    /* border:1px solid black; */
+    margin-top: 10px;
+}
+.offers{
+    width:130px;
+    height:130px;
+    /* border:1px solid blue; */
+    margin-top: 20px;
+    margin-left: 6px;
+    display:inline-block;
+    background-position: center;
+    background-size: cover;
+}
+#offer1{
+    margin-left: 60px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/085406bae47866d5.png?q=100);
+}
+.offers p{
+    padding-top:150px;
+    text-align:center;
+    padding-top: -80px;
+}
+#offer2{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/64f1cc66052c66ef.png?q=100);
+}
+#offer3{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/1fd83847b32a09d1.png?q=100);
+}
+#offer4{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/6c0716819ac55121.png?q=100);
+}
+#offer5{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/6dbed7ba5417672f.jpg?q=100);
+}
+#offer6{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/c444de48eb75d450.png?q=100);
+}
+#offer7{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/f9c7aaa5f5455ae7.png?q=100);
+}
+#offer8{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/26e11f4698473e49.png?q=100);
+}
+#offer9{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/8abe0a348a71d745.png?q=100);
+}
+#offer10{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/80/80/image/022cf9a62e8bd22c.png?q=100);
+}
+
+
+.picture{
+    width:100%;
+    height:400px;
+    /* border:1px solid black; */
+    margin-top:10px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/2c7142dcb842dc4b.jpeg?q=20);
+    background-position: center;
+    background-size: cover;
+}
+
+.bank{
+    width:60%;
+    height:150px;
+    /* border:1px solid black; */
+    margin-top:20px;
+    margin-left: 300px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/065bf4ed0fee4532.jpg?q=20);
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    width:75%;
+    height:auto;
+    /* border:1px solid black; */
+    margin-top: 10px;
+}
+.mobiles{
+    width:23%;
+    height:400px;
+    border:1px solid antiquewhite;
+    display:inline-block;
+    margin-left: 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#mobile1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0B4Unqun1BrxFMNIyh520iZv_ucxEd5ty2Q&usqp=CAU);
+}
+#mobile2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49V7I4osAUWzj58725IVGCQUQJ3O_FlKi3w&usqp=CAU);
+}
+#mobile3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ACS7Nja28HyUH_OHXOZmoY3eWMK7RA1Ppg&usqp=CAU);
+}
+#mobile4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-nhd5laHOs4xakjxSQGn8qzKZyNbjqgkdA&usqp=CAU);
+}
+.mobiles p{
+    text-align: center;
+    padding-top: 400px;
+    font-size: 20px;
+}
+.mobiles h3{
+    text-align: center;
+}
+
+.box3{
+    width:24%;
+    height:565px;
+    /* border:1px solid green; */
+    float:right;
+    margin-top: -565px;
+    background-image:url(https://rukminim1.flixcart.com/fk-p-flap/530/810/image/5329a68eb1770ac3.jpeg?q=20) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.box4{
+    width:100%;
+    height:auto;
+    /* border:1px solid red; */
+    margin-top:10px;
+}
+.moboffer{
+    width:33%;
+    height:300px;
+    /* border:1px solid blue; */
+    display:inline-block;
+    background-position: center;
+    background-size: cover ;
+}
+#moboffer1{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/19bc292770c054a9.jpg?q=20);
+}
+#moboffer2{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/091151b16baabe39.png?q=20);
+}
+#moboffer3{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/eabf4635dc528037.jpg?q=20);
+}
+
+
+.box5{
+    width:100%;
+    height:auto;
+    /* border:1px solid blue; */
+}
+.wedding{
+    width:32%;
+    height:900px;
+    /* border:1px solid red; */
+    display:inline-block;
+    padding-left:15px;
+}
+.container1{
+    width:48%;
+    height:300px;
+    border:1px solid antiquewhite;
+    display:inline-block;
+    padding-left: 5px;
+    background-position: center;
+    background-size: cover;
+}
+#wedding1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeJxW5cFwkjOigrhc6APkAWzEd4nnwFmCQ7g&usqp=CAU);
+}
+#wedding2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdvwnpA73TVhW0mQ1RRMqgkasfobzLgf_hQ&usqp=CAU);
+}
+#wedding3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ77UmCwWjUtyycbBNs4UsfKBsbfmVKGVljw&usqp=CAU);
+    Margin-top:50px;
+}
+#wedding4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LYnZ3i2ZmpaYxNJM0Q9Cv6nEPScSwxrBfg&usqp=CAU);
+    Margin-top:50px;
+}
+
+#style1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL5Fcf5mEnaFpe_K8dFAO_OSrCDSWro0fT0Q&usqp=CAU);
+}
+#style2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTL7pz8O1tTbLXW56YQagWGQ70LTS44HtYw&usqp=CAU);
+}
+#style3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbxDlzQiG5xc8ETz6teN2TquqzV643iN5gYQ&usqp=CAU);
+    Margin-top:50px;
+}
+#style4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2yfzDi0fqXnAWQKV890U8CL0HcnAnuGw5Q&usqp=CAU);
+    Margin-top:50px;
+}
+
+.container1 p{
+    font-size: 20px;
+    margin-top: 300px;
+}
+.container1 h3{
+    color:green;
+} 
+
+.picstyle{
+    width:32%;
+    height:900px;
+    /* border:1px solid red; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiBS70XQG8tMyU6X_13cTpkmbj5zBWNJI6Zw&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    float:right;
+    margin-top: 0px;
+}
+
+
+#moboffer4{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/8e878f85d26062dd.jpg?q=20);
+}
+#moboffer5{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/c4953f7b00da2ebd.jpeg?q=20);
+}
+#moboffer6{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/520/280/image/1548919db25118af.jpg?q=20);
+}
+
+.para{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    color:dimgrey
+}
+.para span{
+    color:black;
+}
+.semi{
+    width:100%;
+    height:300px;
+    margin-top: 100px;
+    background-color: black;
+    color:white;
+}
+.vertical{
+    border:0.1px solid lightgrey;
+    height:200px;
+    position:absolute;
+    right:50%;
+    margin-top:-200px;
+}
+.list{
+    display:inline-block;
+}
+.list h3{
+    color:gray;
+}
+.list ul th{
+    color:gray;
+}
+#mailus h4{
+    line-height: 3px;
+    font-size: 15px;
+}
+#mailus{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.list ul th{
+    color:gray;  
+}
+#registered{
+    /* margin-left: 100px; */
+    margin-top: 100px;
+}
+#Registered h4{
+    line-height: 3px;
+    font-size: 15px;
+}
+#Registered h4 span{
+    color:blue;
+}
+
+.final{
+    height:100px;
+    width:100%;
+    margin-top: 1px;
+    background-color: black;    
+}
+
+.final1{
+    position:absolute;
+    width:50%;
+    height:60px;
+    /* border:1px solid blue; */
+    margin-top: 20px;    
+}
+
+
+.final1 ul li{
+    color:white;
+    padding-left: 30px;
+    display: inline;
+    font-size: 15px;
+}
+.seller{
+    margin-left: -50px;
+}
+
+.final2{
+    position: relative;
+    width:50%;
+    height:30px;
+    /* border: 1px solid blue; */
+    float:right;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-image: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.refresh{
+    width:200px;
+    height:50px;
+    border-radius: 50px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    position:fixed;
+    padding-bottom: 10px;
+    margin-top: 620px;
+    margin-left: 700px;
+}
+
+
+.dropbtn{
+    background-color: antiquewhite;
+    color:black;
+    padding:16px;
+    font-size:16px;
+    border:none;
+    width:130px;
+    height:55px;
+    border-radius: 10px;
+  }
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+    margin-left: 900px;
+    margin-top: -200px;
+  }
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color:white;
+    width: 180px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index:1;
+  }
+
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content:hover{
+    background-color: white;
+  }
+
+.dropdown:hover .dropdown-content{
+    display:block;
+  }
+
+.dropdown:hover .dropbtn{
+    background-color: blue;
+  }

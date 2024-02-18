@@ -1,0 +1,199 @@
+.head{
+    width:100%;
+    height:auto;
+    align-items: center;
+}
+.fixed{
+    position: fixed;
+    margin-top: 600px;
+    margin-left: 1420px;
+    color:green;
+    z-index: 1;
+}
+
+.white:hover{
+    color:white;
+}
+
+.logos{
+    height:auto;
+    width:100%;
+}
+.logo{
+    height:130px;
+    background-image: url(https://gotripindia.in/wp-content/uploads/2022/03/logo-PNG.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: logo 3s ease-in-out 1s infinite;
+}
+@keyframes logo {
+    from{left: 0px;}
+    to{left: 300px;}
+}
+.icons{
+    position: relative;
+    transform: rotateY(45deg);
+    animation: icon 1s linear 1s infinite;
+}
+@keyframes icon {
+    from{transform: rotateY(45deg);}
+    to{transform: rotateY(225deg);}
+}
+
+.light:hover{
+    color:red;
+}
+
+.pic{
+    width:100%;
+    height:auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPvvoXtJgvc2nco4BOzhddfTez7Dx6x0Lk1Mi-FKkp0CTGfVptCqce8mVmO00y1S8JIo&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic h1{
+    font-size: 45px;
+}
+.dark{
+    height:auto;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+.desti{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width:22.6rem;
+    height:250px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    column-gap: 10px;
+    transition: all ease-in-out 1s;
+    box-shadow: black 5px 2px 15px 2px;
+}
+.img:hover{
+    transform: scale(0.8);
+}
+
+#img1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCYJOuMbKI4w_ECMmV5en9_dhbsyF578Eug&usqp=CAU);
+}
+#img2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFW6HTgutT2PcHFk19R9ijIrWrUPjr2lFF2Q&usqp=CAU);
+}
+#img3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgvVFxtaXbKFAr_ek68C6QhLy0WePoxXs3Gg&usqp=CAU);
+}
+#img4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQLl1l3qZSqKz1ouvJlZO3WcFmzwHJDUhEQ&usqp=CAU);
+}
+
+.pack{
+    height:auto;
+}
+.view h6:hover{
+    color:black;
+}
+
+#img5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0RwTZ6x5NtFTvHx6u6OxaJZ5LeNUPgKCxA&usqp=CAU);
+}
+#img6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIGhZxPSMFWEkB7nMblW0OV0VzjzzcrxtySw&usqp=CAU);
+}
+#img7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZwAX2PoxBD2-XH4_xWcgakCZ9Ke7yXHc8w&usqp=CAU);
+}
+#img8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo-UmN2pI2hvCiTNvZyvqjbgCQyeqc2ACeuw&usqp=CAU);
+}
+#img9{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuYld74ppBZrqWXrdOGVQj_Xs4SFb0-X2Ew&usqp=CAU);
+}
+#img10{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiI_4HeIRvQ2DJlolmUjZIYjNwyVcPkjh5jcUCOEuN960OhKI6kOE1T3N6sKa7MmRi9t4&usqp=CAU);
+}
+#img11{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoPK3tDSF5k0VOcxjlWd3zgSbx-Pt3l41dWw&usqp=CAU);
+}
+#img12{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJ5OWfS17DGyY1fHQ6gCO0_SI9bN_sgfABg&usqp=CAU);
+}
+#img13{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUygERMwLMiLsiyl_gtsC8oQ1U2dYbTCovcA&usqp=CAU);
+}
+#img14{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTCkshB1H1TXBiOmQ_MAOIKQio22uhJs2BVw&usqp=CAU);
+}
+#img15{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-zdB7YDvuqohWjBVAkIVQR_8ID59uWEE2nw&usqp=CAU);
+}
+#img16{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEDYy8XAur5rwSI62M3uolw52gguo7YC8Sog&usqp=CAU);
+}
+.heading u:hover{
+     color:red;
+}
+
+
+.dropbtn{
+    color:green;
+    border:none;
+    width:3.5rem;
+    height:3.5rem;
+    border-radius:50%;
+  }
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.dropdown-content{
+    margin-top: 50px;
+    display:none;
+    position:absolute;
+    width:5rem;
+    background-color:white;
+    box-shadow: 0px 8px 16px 0px black;
+    border-radius: 5px;
+    z-index: 2;
+  }
+
+.dropdown-content a{
+    color:black;
+    /* padding:5px 16px; */
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content:hover{
+    background-color: white;
+  }
+
+.dropdown:hover .dropdown-content{
+    display:block;
+  }
+
+
+.offer{
+    height:130px;
+    background-position: center;
+    background-size: cover;
+}
+#offer1{
+    background-image: url(https://gotripindia.in/wp-content/uploads/2022/03/vector_258_20-01-512.png);
+}
+#offer2{
+    background-image: url(https://gotripindia.in/wp-content/uploads/2022/03/5ded0426191618e9b7d33842d55e783c-security-circle-icon-by-vexels.png);
+}
+#offer3{
+    background-image: url(https://gotripindia.in/wp-content/uploads/2022/03/9c1a0590528c68138bc08d9df0942f9d-dollar-currency-icon-by-vexels.png);
+}
